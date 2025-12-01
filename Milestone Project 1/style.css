@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,
+        sans-serif;
+    background-image: url("wine lips 4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Navigationmenu */
+.navbar {
+    background: rgb(61, 61, 61);
+    padding: 1rem 0;
+    text-align: center;
+
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #b4b4b4;
+}
+
+
+.hero-content {
+    text-align: center;
+    padding: 150px 20px;
+}
+
+h1.hero-content {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+p.hero-content {
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+.content {
+    background: rgba(81, 31, 18, 1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tour-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+.tour-box {
+    background-color: rgba(61, 61, 61, 0.8);
+    color: white;
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.logo-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-us-section {
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 60px 0;
+
+}
+
+
+.about-content {
+    background-color: rgba(0, 0, 0, 0.85);
+
+    color: white;
+    width: 100%;
+    max-width: 900px;
+
+    padding: 40px;
+    text-align: center;
+
+}
